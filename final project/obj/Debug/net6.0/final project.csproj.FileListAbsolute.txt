@@ -1,0 +1,15 @@
+/home/ryan/Documents/VisualStudioCode/final project/bin/Debug/net6.0/final project
+/home/ryan/Documents/VisualStudioCode/final project/bin/Debug/net6.0/final project.deps.json
+/home/ryan/Documents/VisualStudioCode/final project/bin/Debug/net6.0/final project.runtimeconfig.json
+/home/ryan/Documents/VisualStudioCode/final project/bin/Debug/net6.0/final project.dll
+/home/ryan/Documents/VisualStudioCode/final project/bin/Debug/net6.0/final project.pdb
+/home/ryan/Documents/VisualStudioCode/final project/obj/Debug/net6.0/final project.csproj.AssemblyReference.cache
+/home/ryan/Documents/VisualStudioCode/final project/obj/Debug/net6.0/final project.GeneratedMSBuildEditorConfig.editorconfig
+/home/ryan/Documents/VisualStudioCode/final project/obj/Debug/net6.0/final project.AssemblyInfoInputs.cache
+/home/ryan/Documents/VisualStudioCode/final project/obj/Debug/net6.0/final project.AssemblyInfo.cs
+/home/ryan/Documents/VisualStudioCode/final project/obj/Debug/net6.0/final project.csproj.CoreCompileInputs.cache
+/home/ryan/Documents/VisualStudioCode/final project/obj/Debug/net6.0/final project.dll
+/home/ryan/Documents/VisualStudioCode/final project/obj/Debug/net6.0/refint/final project.dll
+/home/ryan/Documents/VisualStudioCode/final project/obj/Debug/net6.0/final project.pdb
+/home/ryan/Documents/VisualStudioCode/final project/obj/Debug/net6.0/final project.genruntimeconfig.cache
+/home/ryan/Documents/VisualStudioCode/final project/obj/Debug/net6.0/ref/final project.dll
