@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Internal;
+using System;
 namespace RandomFoodGen
 {
     class Program
@@ -7,8 +8,10 @@ namespace RandomFoodGen
         {
             goto BeginGen;
             BeginGen: //goto statement- kind of like a loop. Program will continue to randomly generate food.
-            Console.WriteLine("Can't choose what to eat? I'll help, press enter");// welcoming prompt
-
+            Console.WriteLine("Can't choose what to eat? I'll help, press Enter");// welcoming prompt
+            
+                                  
+            
             
             PressEnter://goto statement
             Console.WriteLine("---------------");
@@ -17,19 +20,21 @@ namespace RandomFoodGen
            RandomFoodGE();
            Console.WriteLine("Don't like my choice? Kinda rude but okay... Press Enter again");
            goto PressEnter; //returns to the begining so you can keep choosing
-
+           
         }
         
 
         public static void RandomFoodGE()
          {
+           
+            
             int menu;
             int resturant;
             Random men = new Random();
             menu = men.Next(1,3);
             Random rest = new Random(); // creates a collection of numbers
             resturant= rest.Next(1, 10); //rnd.Next gets the next integer between 1-20
-
+            
             switch (resturant) // setting my switches and responses
             {
                 case 1:
@@ -65,8 +70,8 @@ namespace RandomFoodGen
                         Console.WriteLine("Order-30 Day Filet Mignon");
                         break;
                     }
-                break;
                 }
+                break;
                 case 3:
                 Console.WriteLine("Resturant--Jasmine Thai Lacey");
                 {
@@ -82,8 +87,8 @@ namespace RandomFoodGen
                         Console.WriteLine("Order-Rama Noodles");
                         break;
                     }
-                    break;
                 }
+                break;
                 case 4:
                 Console.WriteLine("Resturant--Rod Knock Burger and Bar");
                 {
@@ -117,8 +122,8 @@ namespace RandomFoodGen
                         break;
                         
                     }
-                    break;
                 }
+                break;
                 case 6:
                 Console.WriteLine("Resturant--Bulgogi Hustle");
                 {
@@ -135,8 +140,8 @@ namespace RandomFoodGen
                         break;
                         
                     }
-                 break;
                 }
+                break;
                 case 7:
                 Console.WriteLine("Resturant--Pints and Quarts");
                 {
@@ -153,8 +158,8 @@ namespace RandomFoodGen
                         break;
                         
                     }
-                    break;
                 }
+                break;
                 case 8:
                 Console.WriteLine("Resturant--Taco Brothers");
                 {
@@ -171,8 +176,8 @@ namespace RandomFoodGen
                         break;
                         
                     }
-                    break;
                 }
+                break;
                 case 9:
                 Console.WriteLine("Resturant--Kobito Sushi");
                 {
@@ -189,8 +194,8 @@ namespace RandomFoodGen
                         break;
                         
                     }
-                    break;
                 }
+                break;
                 case 10:
                 Console.WriteLine("Resturant--Safuras Mediterranean Cuisine");
                 {
@@ -207,8 +212,8 @@ namespace RandomFoodGen
                         break;
                         
                     }
-                    break;
                 }
+                break;
             }
          }
          
